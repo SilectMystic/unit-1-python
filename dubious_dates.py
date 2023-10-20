@@ -24,7 +24,7 @@ d2 = '11/11/2023'
 d3 = datetime.datetime.strptime(d1, '%m/%d/%Y') #Converting both variable into usable integers
 d4 = datetime.datetime.strptime(d2, '%m/%d/%Y')
 d5 = d4 - d3 #Substracting the difference
-print('The difference is ' + str(d5) + ' days.') #Printing the difference between two given dates
+print('The difference is ' + str(d5)) #Printing the difference between two given dates
 print('----------------------------------------\n')#separation
 """
 Excercise 4:
